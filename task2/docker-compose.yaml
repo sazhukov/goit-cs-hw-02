@@ -9,7 +9,7 @@ services:
     depends_on:
       - postgres
     environment:
-      - SQLALCHEMY_DATABASE_URL=postgresql+psycopg2://postgres:567234@db:5432/hw02
+      - SQLALCHEMY_DATABASE_URL=postgresql+psycopg2://postgres:567234@postgres:5432/hw02
 
   postgres:
     image: postgres:12
